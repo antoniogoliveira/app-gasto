@@ -1,0 +1,55 @@
+
+*{
+    margin:  0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+/* comentario no CSS */
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  /* troca a fonte */
+    background-color: #f2f5f9;  /* muda a cor de fundo */
+    color: #22304a;  /* muda a cor do texto */
+    max-width: 520px;  /* define a largura máxima */
+    margin: 0 auto;  /* define a margem automática */
+    padding: 24px;  /* define o espaçamento interno */
+}
+.topo{
+    text-align: center;
+    color:rgb(17, 17, 17);
+}
+
+.total-gasto{
+    font-size: 42px; /* Tamanho da fonte */
+    font-weight: bold; /* "Peso" da fonte / Negrito */
+    margin: 12px;  /* distância os itens */
+}
+
+.caixa-total{
+    background-color: #0f766e;
+    font-size: 22px; /* Tamanho da fonte */
+    color: #e9edf1;
+    font-weight: bold; /* "Peso" da fonte / Negrito */
+    margin: 12px;  /* distância os itens */
+    text-align: center;
+    border-radius: 18px;  /* define o arredondamento das bordas */
+}
+
+label {
+    background-color: #ffffff;  /* troca cor de fundo */
+    border-radius: 16px;  /* define o arredondamento das bordas */
+    padding: 28px;  /* define o espaçamento interno */
+    text-align: center;  /* alinha texto ao centro */
+    font-weight: bold;  /* "Peso" da fonte / Negrito */
+    border: 4px dashed #c3cfe0;
+    display: block;  /* o item ocupe uma linha só dele */
+    margin: 16px;  /* distância os itens */
+    cursor: pointer;  /* muda o cursor do mouse - mãozinha */
+}
+
+
+input{
+    display: none; /* esconde o input */
+}
